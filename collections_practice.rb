@@ -23,11 +23,14 @@ end
 
 
 def swap_elements (numbers)
-  temp = numbers
-  temp1[1] = numbers[2]
-  temp2 = temp1
-  temp2[2] = numbers[1]
-  puts temp2
+  second = numbers[1]
+  third = numbers [2]
+
+  swap = numbers
+
+  swap[1] = third
+  swap[2] = second
+
 end
 
 def reverse_array (numbers)
