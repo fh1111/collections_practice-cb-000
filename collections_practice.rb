@@ -36,7 +36,7 @@ def swap_elements (numbers)
 end
 
 def reverse_array (numbers)
-
+  return numbers.reverse
 end
 
 def kesha_maker (numbers)
