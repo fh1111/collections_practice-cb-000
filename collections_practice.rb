@@ -56,7 +56,7 @@ def find_a (numbers)
   found = []
 
   numbers.each do |number|
-    if (number[0]="a")
+    if (number[0]=="a")
       found  << number
     end
   end
