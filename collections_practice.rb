@@ -23,7 +23,7 @@ end
 
 
 def swap_elements (numbers)
-
+  numbers.reserve
 end
 
 def reverse_array (numbers)
