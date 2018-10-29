@@ -26,6 +26,7 @@ def swap_elements (numbers)
   temp = numbers
   temp[1] = numbers[2]
   temp[2] = numbers[1]
+  puts temp
 end
 
 def reverse_array (numbers)
