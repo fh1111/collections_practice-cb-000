@@ -41,6 +41,14 @@ end
 
 def kesha_maker (numbers)
 
+  replaced = []
+  numbers.each do |number|
+    number[2]="$"
+    replaced  << number
+  end
+
+  puts replaced
+
 end
 
 def find_a (numbers)
