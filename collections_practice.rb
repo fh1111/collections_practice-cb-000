@@ -2,7 +2,7 @@
 
 def sort_array_asc (numbers)
   array.sort do |a, b|
-    a <=> b
+    b <=> a
   end
 end
 
