@@ -1,7 +1,7 @@
 
 
 def sort_array_asc (numbers)
-  array.sort do |a, b|
+  numbers.sort do |a, b|
     a <=> b
   end
 end
