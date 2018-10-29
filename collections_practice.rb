@@ -76,6 +76,7 @@ def add_s(numbers)
       number<<"s"
     end
   found << number
+  counter +=1
   end
 
   puts found
