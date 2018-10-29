@@ -68,6 +68,8 @@ def sum_array (numbers)
   numbers.each do |number|
     sum += number
   end
+
+  return sum
 end
 
 
