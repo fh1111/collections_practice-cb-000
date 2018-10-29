@@ -31,6 +31,8 @@ def swap_elements (numbers)
   swap[1] = third
   swap[2] = second
 
+  puts swap
+
 end
 
 def reverse_array (numbers)
