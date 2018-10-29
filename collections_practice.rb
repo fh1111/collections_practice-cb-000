@@ -23,7 +23,9 @@ end
 
 
 def swap_elements (numbers)
-  numbers.reserve
+  temp = numbers
+  temp[1] = numbers[2]
+  temp[2] = numbers[1]
 end
 
 def reverse_array (numbers)
