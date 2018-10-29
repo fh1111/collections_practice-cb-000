@@ -68,6 +68,18 @@ end
 
 def add_s(numbers)
 
+  found = []
+  counter = 0
+
+  numbers.each do |number|
+    if (counter != 1)
+      number.add_s("s")
+    end
+  found << number
+  end
+
+  return found
+
 end
 
 
