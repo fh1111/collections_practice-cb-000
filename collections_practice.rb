@@ -79,7 +79,7 @@ def add_s(numbers)
   counter +=1
   end
 
-  puts found
+  return found
 
 end
 
