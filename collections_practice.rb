@@ -78,11 +78,12 @@ def add_s(numbers)
   found << number
   end
 
-  return found
+  puts found
 
 end
 
 
 #swap_elements(["blake", "ashley", "scott"])
 #kesha_maker(["blake", "ashley", "scott"])
-find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
+#find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
+add_s(["hand","feet", "knee", "table"])
