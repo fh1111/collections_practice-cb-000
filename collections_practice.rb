@@ -15,8 +15,10 @@ def sort_array_desc (numbers)
 end
 
 
-def sort_array_char_count (numbers)
-
+def sort_array_char_count (dishes)
+  dishes.sort do |a, b|
+    a <=> b
+  end
 end
 
 
