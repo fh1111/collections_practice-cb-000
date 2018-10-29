@@ -53,6 +53,17 @@ end
 
 def find_a (numbers)
 
+  found = []
+
+  numbers.each do |number|
+    if (number[0]="a")
+      found  << number
+    end
+  end
+  puts found
+end
+
+
 end
 
 def add_s(numbers)
@@ -61,4 +72,5 @@ end
 
 
 #swap_elements(["blake", "ashley", "scott"])
-kesha_maker(["blake", "ashley", "scott"])
+#kesha_maker(["blake", "ashley", "scott"])
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
