@@ -73,7 +73,7 @@ def add_s(numbers)
 
   numbers.each do |number|
     if (counter != 1)
-      number.add_s("s")
+      number<<"s"
     end
   found << number
   end
