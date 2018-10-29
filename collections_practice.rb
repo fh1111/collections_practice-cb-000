@@ -60,4 +60,5 @@ def add_s(numbers)
 end
 
 
-swap_elements(["blake", "ashley", "scott"])
+#swap_elements(["blake", "ashley", "scott"])
+kesha_maker(["blake", "ashley", "scott"])
