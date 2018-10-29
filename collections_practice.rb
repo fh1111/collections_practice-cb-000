@@ -47,7 +47,7 @@ def kesha_maker (numbers)
     replaced  << number
   end
 
-  puts replaced
+  return replaced
 
 end
 
