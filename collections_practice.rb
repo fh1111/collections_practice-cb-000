@@ -63,7 +63,12 @@ def find_a (numbers)
   return found
 end
 
-
+def sum_array (numbers)
+  sum = 0
+  numbers.each do |number|
+    sum += number
+  end
+end
 
 
 def add_s(numbers)
