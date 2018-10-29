@@ -60,7 +60,7 @@ def find_a (numbers)
       found  << number
     end
   end
-  puts found
+  return found
 end
 
 
